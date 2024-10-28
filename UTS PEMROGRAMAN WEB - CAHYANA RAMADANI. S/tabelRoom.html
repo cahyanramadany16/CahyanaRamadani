@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="css/styleTable.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <h1>Welcome to Four Points by Sheraton Makassar</h1>
+        <nav>
+            <ul>
+                <li><a href="LandingPage.html">Home</a></li>
+                <li><a href="LandingPage.html#About">About</a></li> <!-- Tautan ke ID About -->
+                <li><a href="LandingPage.html#Contact">Contact</a></li> <!-- Tautan ke ID Contact -->
+                <li><a href="reservationForm.html">Reservation</a></li>
+                <li><a href="#RoomTypes">Room Types</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="RoomTypes" class="section">
+        <h2>Room Types and Rates</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Room Type</th>
+                    <th>Category</th>
+                    <th>Price (per night)</th>
+                    <th>Benefits</th>
+                    <th>Image</th>
+                    <th style="text-align: center;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Single Room</td>
+                    <td>Standard</td>
+                    <td>Rp. 500.000</td>
+                    <td>Free Wi-Fi, Breakfast Included</td>
+                    <td><img src="resource/single.jpg" alt="Single Room" class="room-image"></td>
+                    <td style="text-align: center;">
+                        <a href="reservationForm.html" class="reserve-button">Reserve</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Double Room</td>
+                    <td>Standard</td>
+                    <td>Rp. 1000.000</td>
+                    <td>Free Wi-Fi, Breakfast Included</td>
+                    <td><img src="resource/double.jpg" alt="Double Room" class="room-image"></td>
+                    <td style="text-align: center;">
+                        <a href="reservationForm.html" class="reserve-button">Reserve</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Suite</td>
+                    <td>Deluxe</td>
+                    <td>Rp. 1.500.000</td>
+                    <td>Free Wi-Fi, Breakfast, Room Service</td>
+                    <td><img src="resource/suite.jpg" alt="Suite" class="room-image"></td>
+                    <td style="text-align: center;">
+                        <a href="reservationForm.html" class="reserve-button">Reserve</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Family Room</td>
+                    <td>Deluxe</td>
+                    <td>Rp. 2.500.000</td>
+                    <td>Free Wi-Fi, Breakfast, Extra Beds</td>
+                    <td><img src="resource/family.jpg" alt="Family Room" class="room-image"></td>
+                    <td style="text-align: center;">
+                        <a href="reservationForm.html" class="reserve-button">Reserve</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+      
+    <div class="footer">
+        <p>&copy; 2023 Four Points by Sheraton Makassar</p>
+    </div>
+</body>
+</html>
