@@ -1,0 +1,130 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Warna latar belakang */
+}
+
+/* Gaya Header */
+header {
+  display: flex;
+  flex-direction: column; /* Mengatur nav berada di bawah logo/judul */
+  align-items: center; /* Menyelaraskan item ke tengah secara horizontal */
+  background-color: #29668f; /* Warna latar belakang header */
+  padding: 10px 20px;
+  position: fixed; /* Membuat header tetap di posisi atas */
+  top: 0; /* Menempatkan header di bagian paling atas halaman */
+  width: 100%; /* Membuat header meluas ke seluruh lebar layar */
+  z-index: 1000; /* Memastikan header berada di atas konten lain */
+}
+
+/* Menambahkan padding ke atas body untuk menghindari konten tertutup oleh header */
+body {
+  padding-top: 100px; /* Sesuaikan dengan tinggi header */
+}
+
+/* Gaya Konten Header */
+.header-content {
+  display: flex; /* Menggunakan flexbox untuk logo dan judul */
+  align-items: center; /* Menyelaraskan logo dan judul secara vertikal */
+}
+
+/* Gaya Logo dan Judul */
+header h1 {
+  margin: 0; /* Menghapus margin default */
+  padding: 5px; /* Menambahkan padding untuk memberi jarak */
+  font-size: 1.5em; /* Menyesuaikan ukuran font */
+  color: #f8f5f5; /* Warna teks */
+  margin-left: 10px; /* Memberi jarak antara logo dan judul */
+}
+
+/* Gaya Logo dan Judul */
+header > table {
+  display: flex;
+  align-items: center; /* Menyelaraskan logo dan judul secara vertikal */
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Menyelaraskan item ke tengah */
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none; /* Menghilangkan gaya list */
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px; /* Memberi jarak antar item menu */
+}
+
+nav a {
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+  color: #f7e0e0; /* Warna teks link */
+  font-weight: bold; /* Membuat teks lebih tebal */
+  transition: color 0.3s ease; /* Menambahkan transisi saat hover */
+}
+
+nav a:hover {
+  color: #ff6347; /* Warna teks saat di-hover */
+}
+
+/* Gaya Section */
+.section {
+  height: auto;
+  width: auto;
+  background-size: cover;
+  background-color: #fff;
+  padding-top: 8%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+  min-height: 100%;
+}
+
+/* Gaya Form Group */
+.form-group {
+  margin-bottom: 15px; /* Jarak antara elemen dalam form */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold; /* Teks tebal untuk label */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 50%; /* Lebar 50% untuk kemudahan penggunaan */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Membuat tepi elemen form melengkung */
+}
+
+button {
+  background-color: #094a75; /* Warna tombol */
+  color: #fff;
+  padding: 10px 15px;
+  border: 5%; /* Menghilangkan border default */
+  box-shadow: #fff; /* Memberikan efek bayangan */
+  border-radius: 5px; /* Membuat tepi tombol melengkung */
+  cursor: pointer; /* Menampilkan pointer saat hover */
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff6347; /* Warna tombol saat di-hover */
+}
+
+/* Gaya Footer */
+.footer {
+  background-color: #29668fe8; /* Warna latar belakang footer */
+  color: #fff; /* Warna teks di footer */
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px; /* Ukuran font kecil untuk footer */
+}
