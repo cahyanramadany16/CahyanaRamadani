@@ -76,7 +76,6 @@ nav a:hover {
 /* Gaya Section */
 .section {
   background-image: url(/resource/hotel.jpg); /* Gambar latar belakang section */
-  min-height: 80vh;
   height: auto;
   width: auto;
   background-size: cover;

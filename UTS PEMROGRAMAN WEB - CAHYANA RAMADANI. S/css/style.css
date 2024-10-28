@@ -94,7 +94,6 @@ nav a:hover {
 /* Gaya Hero Section */
 .hero {
   background-image: url(/resource/hotel.jpg); /* Gambar latar belakang */
-  min-height: 100vh; 
   background-size: cover;
   background-position: center;
   height: 500px;
