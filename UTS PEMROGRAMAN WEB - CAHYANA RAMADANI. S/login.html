@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/styleLogin.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <h1>Welcome to Four Points by Sheraton Makassar</h1>
+        <nav>
+            <ul>
+                <li><a href="LandingPage.html">Home</a></li>
+                <li><a href="LandingPage.html#About">About</a></li> <!-- Tautan ke ID About -->
+                <li><a href="LandingPage.html#Contact">Contact</a></li> <!-- Tautan ke ID Contact -->
+                <li><a href="reservationForm.html">Reservation</a></li>
+                <li><a href="tabelRoom.html">Room Types</a></li>
+                <li><a href="#login-container">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <h2>Welcome Back</h2>
+            <p>Please login to continue</p>
+            <form action="login" method="POST">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+                <p class="signup-link">Don’t have an account? <a href="signup.html">Sign up</a></p>
+            </form> 
+        </div>
+       
+    </main>
+</body>
+</html>
